@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+  }
+ 
+  .element-animation {
+     opacity: 0
+  }
+  
+  .element-show {
+      opacity: 1;
+      transition: opacity 0.5s;
+  }
+  
+  @media (max-width: 530px) {
+     .element-animation {
+        opacity: 1;
+     }
+  }

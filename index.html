@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://storage.yandexcloud.net/maliniteasite/img/fav/fav.png" rel="icon" type="image/png" />
+    <link type="image/x-icon" href="https://storage.yandexcloud.net/maliniteasite/img/fav/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="https://storage.yandexcloud.net/maliniteasite/img/fav/favicon.ico" rel="icon">
+    <link href="https://storage.yandexcloud.net/maliniteasite/img/fav/fav.svg" rel="icon" type="image/svg+xml" />
+	<title>Portfolio</title>
+    <style>
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: url("fonts\OpenSans-Regular.woff2") format('woff2'), url("fonts\OpenSans-Regular.woff") format('woff'), url("fonts\OpenSans-Regular.ttf") format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            src: url("fonts\OpenSans-Italic.woff2") format('woff2'), url("fonts\OpenSans-Italic.woff") format('woff'), url("fonts\OpenSans-Italic.ttf") format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: url("fonts\OpenSans-Light.woff2") format('woff2'), url("fonts\OpenSans-Light.woff") format('woff'), url("fonts\OpenSans-Light.ttf") format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            src: url("fonts\OpenSans-LightItalic.woff2") format('woff2'), url("fonts\OpenSans-LightItalic.woff") format('woff'), url("fonts\OpenSans-LightItalic.ttf") format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Cormorant Infant';
+            font-style: normal;
+            font-weight: 300;
+            src: url("fonts\CormorantInfant-Light.woff2") format('woff2'), url("fonts\CormorantInfant-Light.woff") format('woff'), url("fonts\CormorantInfant-Light.ttf") format('truetype');
+        }
+    </style>
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="global.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="white"
+                d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+            </path>
+        </svg>
+    </div>
+	<!-- Экран 1 -->
+
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__inner">
+				<nav class="nav">
+					<a href="/"><img class="logo" src="https://storage.yandexcloud.net/maliniteasite/img/svg/logo.svg" alt="logo"></a>
+
+					<div class="nav__items">
+						<div class="nav__items-underline">
+							<svg width="106" height="10" viewBox="0 0 106 10" fill="none"
+								xmlns="http://www.w3.org/2000/svg" style="" id="navSvg">
+								<path
+									d="M11.8277 1.71171L58.1006 1.61797M58.1006 1.61797L84.7973 1.56389C89.5752 1.55421 94.3549 1.57655 99.1326 1.52088C100.732 1.50225 102.848 1.69935 104.429 1.16092C105.138 0.919021 102.935 1.02426 102.186 1.02578C87.4924 1.05554 72.7887 1.15538 58.1006 1.61797ZM58.1006 1.61797C56.6446 1.66383 55.1889 1.71325 53.7333 1.76651C36.7983 2.38624 19.5727 3.32884 2.86747 6.47938C2.13599 6.61734 -0.190201 7.09197 1.79679 7.66893C3.50691 8.1655 5.34419 8.4017 7.10896 8.53823C13.3391 9.02021 19.6632 8.7363 25.9021 8.72366L83.4083 8.60716"
+									stroke="#9CA5F2" stroke-linecap="round" id="karakul1" class=""></path>
+							</svg>
+						</div>
+
+                        <div class="nav__alert">
+                            <p id="inwork">В разработке</p>
+                        </div>
+						<a id="output4" href="/">Портфолио</a>
+						<a id="output5" href="/shop">Магазин</a>
+						<a href="/">NFT</a>
+					</div>
+
+					<!-- тут бургер -->
+					<div class="nav__burger" id="burger">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+
+					<div id="sidebar" class="nav__sidebar">
+						<ul class="nav__sidebar-list">
+							<a id="output4-1" href="/">Портфолио</a> 
+							<a id="output5-1" href="/shop">Магазин</a>
+							<a href="/">NFT</a>
+						</ul>
+					</div>
+
+					<div class="nav__translation">
+						<button id="ru">RU</button>
+						<button id="en">EN</button>
+					</div>
+					<div class="nav__name">
+						<div class="nav__name-karakul4">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/karakul4.svg" alt="karakul">
+						</div>
+						<div class="nav__name-text">
+							<p id="output7">Меня зовут Лера, рада познакомиться</p>
+							<img class="karakul5" src="https://storage.yandexcloud.net/maliniteasite/img/svg/karakul5.svg" alt="karakul">
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<div class="header__text">
+				<h4 id="output2">Сайт-портфолио фрилансера</h4>
+				<h1 id="output">Полная упаковка брендов - от логотипа до сайта</h1>
+				<a href="https://api.whatsapp.com/send?phone=79776449145" target="_blank"><button id="output3">Оставить заявку</button></a>
+			</div>
+
+			<div class="header__grid">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/grid1.webp" alt="me">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/grid2.webp" alt="branding">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/grid3.webp" alt="cards">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/grid4.webp" alt="packaging">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/grid5.webp" alt="book">
+			</div>
+		</div>
+
+		<div>
+			<img class="ellipse" src="https://storage.yandexcloud.net/maliniteasite/img/svg/header-circle.svg" alt="ellipse">
+		</div>
+	</header>
+
+	<!-- Экран 2 -->
+
+	<div class="popup__blocks">
+		<div class="directions container">
+			<div class="directions__text">
+				<h2 id="output8">Дизайн под ключ</h2>
+				<div class="directions__line"></div>
+				<h4 id="output9">Виды работ</h4>
+			</div>
+
+			<!-- к анимируемому блоку добавить класс element-animation -->
+
+			<div class="directions__cards element-animation">
+				<div class="directions__underline">
+					<svg width="124" height="76" viewBox="0 0 124 76" fill="none" xmlns="http://www.w3.org/2000/svg"
+						style="">
+						<path
+							d="M39.7615 74.5285C41.6939 68.2093 47.4373 62.9049 51.9432 58.4632C71.5526 39.1328 94.0392 22.8967 115.865 6.21873C118.064 4.53832 124.629 -0.544386 122.405 1.1026C112.903 8.13867 115.33 6.682 102.761 15.5417C75.3261 34.8808 46.6119 53.2696 15.7719 66.7428C13.5925 67.695 6.4918 70.4511 3.43279 71.3554C2.55246 71.6156 0.517133 72.3052 0.679196 71.4017C1.15423 68.7531 3.64176 66.8848 5.43686 64.8803C16.1214 52.9492 28.1194 42.1943 39.9505 31.4373C42.9574 28.7034 57.447 15.9495 61.6453 11.5163C64.1946 8.82444 66.7256 6.08941 61.3513 7.8944C46.3103 12.946 33.4557 23.8154 20.6148 32.7201"
+							stroke="#9CA5F2" stroke-linecap="round" id="karakul2" class="PXyQjkTS_0-disactive"></path>
+					</svg>
+
+				</div>
+				<div class="directions__card">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/direction1.webp" alt="branding">
+
+					<div class="directions__card-name">
+						<h3 id="output10">Бренд-дизайн</h3>
+						<img id="brand__preview" src="https://storage.yandexcloud.net/maliniteasite/img/svg/more.svg" alt="preview">
+					</div>
+
+					<p>
+						<span id="output11" style="color:#9CA5F2; font-style: italic;">Разработка логотипов и печатной продукции</span><span id="output12"> любого вида (визиток, сертификатов, листовок, буклетов, меню, каталогов, этикеток, брендбуков, приглашений); дизайн</span><span id="output13" style="color:#9CA5F2; font-style: italic;"> наружной рекламы;</span><span id="output14"> оформление</span><span id="output15" style="color:#9CA5F2; font-style: italic;"> упаковок, мерча</span>
+					</p>
+				</div>
+
+				<div class="directions__card">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/direction2.webp" alt="web">
+
+					<div class="directions__card-name">
+						<h3 id="output16">Веб</h3>
+						<img id="test__preview" src="https://storage.yandexcloud.net/maliniteasite/img/svg/more.svg" alt="preview">
+					</div>
+
+					<p>
+						<span id="output17" style="color:#9CA5F2; font-style: italic;">Разработка лендингов, многостраничных сайтов, интернет-магазинов </span><span id="output18">под ключ с 0 или на конструкторе. В случаях, когда требуются индивидуальные решения (не конструктор) </span><span id="output19" style="color:#9CA5F2; font-style: italic;">работаю в паре с разработчиком</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Экран 3 -->
+
+		<div class="sales">
+			<div class="malinitea-circle">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/white-circle.svg" alt="logo">
+			</div>
+			<div class="sales__wrapper container element-animation">
+				<h2 id="output20">-10% на любую услугу</h2>
+				<p id="output21">Я знаю, как сложно бывает решиться на сотрудничество с фрилансером, которого вы видите впервые. Поэтому с радостью дарю Вам скидку на заказ и приглашаю в свой Инстаграм</p>
+				<div class="sales__wrapper-buttons">
+					<a href="https://api.whatsapp.com/send?phone=79776449145" target="_blank"><button class="sales__button-1" id="output22">Заказать дизайн</button></a>
+					<a href="https://www.instagram.com/malinitea/" target="_blank"><button class="sales__button-2">@malinitea</button></a>
+				</div>
+			</div>
+
+			<div class="sales__underline">
+				<svg class="sales__underline-svg" width="187" height="132" viewBox="0 0 187 132" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+					<path d="M1 77.7437C33.6374 51.426 70.5258 29.9308 107.26 11.7605C115.548 7.66068 123.924 3.44794 132.772 1.23991C135.142 0.648314 140.367 1.04201 139.729 3.65725C138.218 9.85934 132.71 13.9067 128.591 18.3996C113.426 34.9401 95.1919 49.646 78.0245 63.2056C55.8754 80.6999 32.8872 98.4551 9.11747 113.221C-9.87641 125.02 45.9324 87.395 64.7191 75.1902C87.8648 60.1536 106.08 48.7548 129.049 34.2315C135.54 30.1267 142.026 26.011 148.518 21.9065C153.375 18.8358 157.892 14.8892 163.166 12.85C166.416 11.5937 157.663 17.4589 154.805 19.5913C134.767 34.5382 114.782 49.4641 95.0833 64.976C79.9807 76.8689 50.5493 97.5373 34.6139 110.24C29.0304 114.69 22.3901 118.766 20.272 125.648C18.8532 130.258 29.2435 123.668 33.2258 121.664C46.0903 115.191 58.6028 107.88 71.3107 101.032C88.489 91.7753 105.603 82.3665 122.884 73.3516C137.282 65.8411 151.703 58.3703 166.34 51.4594C172.581 48.5128 178.767 44.8763 185.474 43.7988C187.476 43.4771 183.232 47.6765 181.599 49.008C177.747 52.1481 136.187 81.1692 134.969 82.0336C120.225 92.4942 103.245 104.594 88.7664 115.876C84.7484 119.008 80.7835 122.232 76.9564 125.648C76.9136 125.686 67.7387 133.393 75.1864 130.244C89.5221 124.183 103.063 113.78 116.293 105.39C131.104 95.9962 145.857 86.2241 161.305 78.1523C163.75 76.8748 166.139 75.2957 168.781 74.6795C169.289 74.561 169.115 76.0033 168.751 76.4159C166.459 79.0144 163.799 81.1887 161.152 83.3274C149.546 92.7061 133.125 104.296 121.358 112.336" stroke="#11100E" stroke-linecap="round" id="karakul3" class="oqMKZScV_0-disactive"></path>
+				</svg>		
+			</div>
+		</div>
+
+		<!-- Слайдер 2 -->
+		
+		<div class="price__bg">
+			<div class="price__text element-animation">
+				<h2 id="output23">Популярные услуги</h2>
+				<div class="price__text-line"></div>
+				<h4 id="output24">Примеры и цены</h4>
+			</div>
+			<div class="price element-animation">
+				<div class="price-line">
+					<div data-slide="0" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item1.webp" alt="logo design">
+						<h3 id="output25">Разработка логотипа</h3>
+						<p id="output26">от 30.000Р</p>
+					</div>
+
+					<div data-slide="1" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item2.webp" alt="media">
+						<h3 id="output27">Дизайн соц.сетей</h3>
+						<p id="output28">от 25.000Р</p>
+					</div>
+
+					<div data-slide="2" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item3.webp" alt="branding">
+						<h3 id="output29">Фирменный стиль</h3>
+						<p id="output30">от 80.000Р</p>
+					</div>
+
+					<div data-slide="3" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item4.webp" alt="brandbook">
+						<h3 id="output31">Брендбук</h3>
+						<p id="output32">от 100.000Р</p>
+					</div>
+
+					<div data-slide="4" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item5.webp" alt="web design">
+						<h3 id="output33">Разработка сайта</h3>
+						<p id="output34">от 100.000Р</p>
+					</div>
+
+					<div data-slide="5" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item6.webp" alt="books">
+						<h3 id="output35">Многостраничники</h3>
+						<p id="output36">от 60.000Р</p>
+					</div>
+
+					<div data-slide="5" class="price__item">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/price-item7.webp" alt="packaging">
+						<h3 id="output37">Дизайн упаковки</h3>
+						<p id="output38">от 20.000Р</p>
+					</div>
+				</div>
+			</div>
+			<div class="price__buttons">
+				<a class="button price-prev"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/price_button-1.svg"></a>
+				<a class="button price-next"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/price_button-2.svg"></a>
+			</div>
+		</div>
+
+	</div>
+
+	
+	<!-- Экран 5 -->
+
+	<div class="portfolio container">
+		<div class="portfolio__text element-animation">
+			<h2 id="output39">Ваш проект будет еще лучше</h2>
+			<div class="portfolio__line"></div>
+			<h4 id="output40">Портфолио</h4>
+		</div>
+
+		<div class="portfolio__grid">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp1.webp" alt="sheyko book">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp2.webp" alt="food packaging">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp3.webp" alt="clean spase web site">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp4.webp" alt="viro craft">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp5.webp" alt="catering branding">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp6.webp" alt="ceramics branding">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp7.webp" alt="viro packaging">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp8.webp" alt="logo design">
+			<img src="https://storage.yandexcloud.net/maliniteasite/img/gridp9.webp" alt="shampoo packaging">
+		</div>
+
+		<div class="portfolio__list element-animation">
+			<h2 id="output41">Кейсы по категориям</h2>
+			<div class="portfolio__list-columns">
+				<div>
+					<p id="brandbook__preview" class="brandbook">Брендбуки</p>
+					<p id="web__preview" class="web">Сайты и ИМ</p>
+					<p id="branding__preview" class="branding">Брендинг</p>
+					<p id="logodesign__preview" class="logodesign">Логотипы</p>
+				</div>
+				<div>
+					<p id="presentation__preview" class="presentation">Презентации</p>
+					<p id="polygraphy__preview" class="polygraphy">Полиграфия</p>
+					<p id="signboards__preview" class="signboards">Вывески</p>
+					<p id="social__preview" class="social">Соц.сети</p>
+				</div>
+				<div>
+					<p id="illustrations__preview" class="illustrations">Иллюстрации</p>
+					<p id="allowance__preview" class="allowance">Пособия</p>
+					<p id="packaging__preview" class="packaging">Упаковка</p>
+					<p id="catalog__preview" class="catalog">Каталоги</p>
+				</div>
+				<div>
+					<p id="ad__preview" class="ad">Реклама</p>
+					<p id="merch__preview" class="merch">Мерч</p>
+				</div>
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/portfolio-line.svg">
+				<div>
+					<p id="cosmetics__preview" class="cosmetics">Косметика</p>
+					<p id="ceramics__preview" class="ceramics">Керамика</p>
+					<p id="realty__preview" class="realty">Недвижимость</p>
+					<p id="repair__preview" class="repair">Техника</p>
+				</div>
+				<div>
+					<p id="beauty__preview" class="beauty">Бьюти</p>
+					<p id="education__preview" class="education">Образование</p>
+					<p id="food__preview" class="food">Продукты питания</p>
+					<p id="clothes__preview" class="clothes">Одежда</p>
+				</div>
+				<div>
+					<p id="tarot__preview" class="tarot">Таро и астрология</p>
+					<p id="experts__preview" class="experts">Эксперты</p>
+					<p id="tobacco__preview" class="tobacco">Табак</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="popup__blocks-2">
+
+		<!-- Экран 6 -->
+
+		<div class="slider__bg">
+			<div class="slider element-animation">
+				<div class="slider__buttons">
+					<img class="slider__arrow2 slider-prev" src="https://storage.yandexcloud.net/maliniteasite/img/svg/arrow-prev.svg">
+					<img class="slider__arrow1 slider-next" src="https://storage.yandexcloud.net/maliniteasite/img/svg/arrow-next.svg">
+				</div>
+	
+				<div class="slider-line">
+					<div class="slider__item">
+						<div class="slider__item-quote">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/quote.svg">
+						</div>
+						<div class="slider__item-text">
+							<div id="output67" class="text">Добрый вечер! В первую очередь хочу поблагодарить за вашу работу! Все варианты
+								очень красивые!!! Даже сложно определиться с одним.</div>
+							<div class="name">Margarita Balcunene, LashProvocator</div>
+						</div>
+						<div class="slider__item-img">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/feedback_img1.webp" alt="feedback Margarita Balcunene, LashProvocator">
+						</div>
+					</div>
+	
+					<div class="slider__item">
+						<div class="slider__item-quote">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/quote.svg" alt="feedback Sergey Piksaev, Mercedes-Benz">
+						</div>
+						<div class="slider__item-text">
+							<div id="output68" class="text">Очень красиво и качественно правда! У нас в компании за такие презентации обычно ответственные были по 5-6 человек.</div>
+							<div class="name">Sergey Piksaev, Mercedes-Benz</div>
+						</div>
+						<div class="slider__item-img">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/feedback_img2.webp" alt="feedback Sergey Piksaev, Mercedes-Benz">
+						</div>
+					</div>
+	
+					<div class="slider__item">
+						<div class="slider__item-quote">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/quote.svg">
+						</div>
+						<div class="slider__item-text">
+							<div class="text">I'm so in Love! it really look like I imagine it..So happy!! My friend will
+								also write you. I will recommend you.</div>
+							<div class="name">Jovana Babic, JuniqueBrows</div>
+						</div>
+						<div class="slider__item-img">
+							<img src="https://storage.yandexcloud.net/maliniteasite/img/feedback_img3.webp" alt="feedback Jovana Babic, JuniqueBrows">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- Экран 7 -->
+	
+		<div class="contacts container">
+			<div class="malinitea-circle-2">
+				<img src="https://storage.yandexcloud.net/maliniteasite/img/svg/black-circle.svg">
+			</div>
+			<div class="contacts__wrapper element-animation">
+				<h2 id="output69">Свяжитесь со мной</h2>
+				<p id="output70"> Если у вас остались вопросы, или того, что вы хотите заказать, нет на сайте, просто нажмите на кнопку ниже и напишите мне. Разберем запрос в индивидуальном порядке и найдем решение :)</p>
+	
+				<div class="contacts__wrapper-buttons">
+					<a href="https://api.whatsapp.com/send?phone=79776449145" target="_blank"><button class="contacts__button-1">WhatsApp</button></a>
+					<a href="https://www.instagram.com/malinitea/" target="_blank"><button class="contacts__button-2">Instagram</button></a>
+				</div>
+			</div>
+			<div class="contacts__underline">
+				<svg class="contacts__underline-svg" width="187" height="132" viewBox="0 0 187 132" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+					<path d="M1 77.7437C33.6374 51.426 70.5258 29.9308 107.26 11.7605C115.548 7.66068 123.924 3.44794 132.772 1.23991C135.142 0.648314 140.367 1.04201 139.729 3.65725C138.218 9.85934 132.71 13.9067 128.591 18.3996C113.426 34.9401 95.1919 49.646 78.0245 63.2056C55.8754 80.6999 32.8872 98.4551 9.11747 113.221C-9.87641 125.02 45.9324 87.395 64.7191 75.1902C87.8648 60.1536 106.08 48.7548 129.049 34.2315C135.54 30.1267 142.026 26.011 148.518 21.9065C153.375 18.8358 157.892 14.8892 163.166 12.85C166.416 11.5937 157.663 17.4589 154.805 19.5913C134.767 34.5382 114.782 49.4641 95.0833 64.976C79.9807 76.8689 50.5493 97.5373 34.6139 110.24C29.0304 114.69 22.3901 118.766 20.272 125.648C18.8532 130.258 29.2435 123.668 33.2258 121.664C46.0903 115.191 58.6028 107.88 71.3107 101.032C88.489 91.7753 105.603 82.3665 122.884 73.3516C137.282 65.8411 151.703 58.3703 166.34 51.4594C172.581 48.5128 178.767 44.8763 185.474 43.7988C187.476 43.4771 183.232 47.6765 181.599 49.008C177.747 52.1481 136.187 81.1692 134.969 82.0336C120.225 92.4942 103.245 104.594 88.7664 115.876C84.7484 119.008 80.7835 122.232 76.9564 125.648C76.9136 125.686 67.7387 133.393 75.1864 130.244C89.5221 124.183 103.063 113.78 116.293 105.39C131.104 95.9962 145.857 86.2241 161.305 78.1523C163.75 76.8748 166.139 75.2957 168.781 74.6795C169.289 74.561 169.115 76.0033 168.751 76.4159C166.459 79.0144 163.799 81.1887 161.152 83.3274C149.546 92.7061 133.125 104.296 121.358 112.336" stroke="#11100E" stroke-linecap="round" id="karakul6" class="oqMKZSc_0-disactive"></path>
+				</svg>		
+			</div>
+		</div>
+	
+		<!-- Экран 8 -->
+	
+		<div class="shop container">
+			<div class="shop__wrapper element-animation">
+				<div class="shop__text">
+					<h4 id="output71">Не хотите ждать?</h4>
+					<h2 id="output72">Загляните в магазин готовых шаблонов</h2>
+					<a href="/shop"><button id="output73">В магазин</button></a>
+					<p id="output74">Приглашения, сертификаты, визитки, наборы и многое другое по доступной цене</p>
+				</div>
+				<div class="shop__images">
+					<img class="shop__img-1" src="https://storage.yandexcloud.net/maliniteasite/img/shop1.webp" alt="cards">
+					<img class="shop__img-2" src="https://storage.yandexcloud.net/maliniteasite/img/shop2.webp" alt="thank you card">
+					<div class="shop__img-3">
+						<img src="https://storage.yandexcloud.net/maliniteasite/img/shop3.webp" alt="cards">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- Экран 9 -->
+
+	<div class="footer container">
+		<div class="footer__wrapper element-animation">
+			<div class="footer__columns">
+                <div class="footer__contact">
+					<a type="tel" href="tel:+79776449145" class="footer__contact-1">+7 (977)-644-91-45,</a>
+                    <a type="tel" href="tel:+374077688794" class="footer__contact-2">+374 077-688-794</a>
+					<p>Moscow, Russian Federation</p>
+                </div>
+				<div>
+					<a href="https://www.instagram.com/malinitea/" target="_blank"><p>Instagram</p></a>
+					<a href="https://api.whatsapp.com/send?phone=79776449145" target="_blank"><p>WhatsApp</p></a>
+					<a href="https://www.behance.net/malinitea" target="_blank"><p>Behance</p></a>
+					<a href="https://www.tiktok.com/@malinitea" target="_blank"><p>Tik-Tok</p></a>
+				</div>
+				<div class="footer__columns-menu">
+					<a id="output75" href="/">Портфолио</a>
+					<a id="output76" href="/shop">Магазин</a>
+					<a href="/">NFT</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Попап1 -->
+
+
+	<div id="brandPopup" class="popup">
+		<div id="brandBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="brandCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+			<div class="popup__wrapper">
+				<h1 id="output78">Бренд-дизайн</h1>
+				<h2 id="output79">К бренд-дизайну относятся: разработка логотипа, полиграфии (визиток, бланков, сертификатов и т.д.), рекламной продукции (баннеров, листовок, вывесок и т.д.), а также оформление соц. сетей. Здесь Вы можете заказать любой макет по отдельности или с 0 полностью оформить новый бизнес, заказав услугу "фирменный стиль" или "брендбук".</h2>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item1.webp">
+					<div class="popup__text">
+						<h3 id="output80">Логотип</h3>
+						<h4 id="output81">В стоимость разработки логотипа входит: 3 разных варианта логотипа на выбор, форматы: вектор, водяной знак + логотип на красивом фоне для соц.сетей (делаю в фотошопе). Все правки независимо от услуги — бесплатно. Итоговый вариант будет продемонстрирован на носителях.</h4>
+						<p id="output82">Цена: от 30.000Р</p>
+						<p id="output83">Сроки: от 1 недели</p>
+						<p id="output84">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item2.webp">
+					<div class="popup__text">
+						<h3 id="output85">Фирменный стиль</h3>
+						<h4 id="output86">"Брендинг" или "фирменный стиль" включает в себя разработку логотипа, полиграфии и рекламной продукции. Набор макетов зависит от потребностей компании и составляется в индивидуальном порядке.</h4>
+						<p id="output87">Цена: от 80.000Р</p>
+						<p id="output88">Сроки: от 2 недель</p>
+						<p id="output89">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item3.webp">
+					<div class="popup__text">
+						<h3 id="output90">Брендбук</h3>
+						<h4 id="output91">Брендбук — это пдф-файл, в котором прописано, как следует и не следует использовать элементы фирменного стиля бренда. Если компания достаточно крупная, и над айдентикой работают разные отделы и специалисты, брендбук подскажет, какой применить шрифт или какие выбрать цвета, чтобы сохранить визуальную целостность бренда.</h4>
+						<p id="output92">Цена: от 100.000Р</p>
+						<p id="output93">Сроки: от 2 недель</p>
+						<p id="output94">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item4.webp">
+					<div class="popup__text">
+						<h3 id="output95">Полиграфия</h3>
+						<h4 id="output96">Если Вам не нужно полное оформление бренда, а только один или несколько макетов, их можно заказать по отдельности, в уже существующем фирменном стиле компании или разработать с 0. Цены на полиграфию начинаются от 4000р (например, за визитные карточки) и зависят от сложности дизайна и объема работы.</h4>
+						<p id="output97">Цена: от 4.000Р</p>
+						<p id="output98">Сроки: от 2-3 дней</p>
+						<p id="output99">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item5.webp">
+					<div class="popup__text">
+						<h3 id="output100">Многостраничники</h3>
+						<h4 id="output101">Многостраничные журналы и каталоги с информацией о продуктах или услугах компании, учебные пособия, буклеты. Для того чтобы начать работу над таким макетом, необходимы текст и фотографии. Стоимость разработки зависит от количества страниц и сложности дизайна.</h4>
+						<p id="output102">Цена: от 60.000Р</p>
+						<p id="output103">Сроки: от 2 недель</p>
+						<p id="output104">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item6.webp">
+					<div class="popup__text">
+						<h3 id="output105">Презентации</h3>
+						<h4 id="output106">Презентации чаще всего заказывают, когда нужно эффектно представить продукт или решения потенциальным клиентам. Чтобы создать презентацию для Вашей компании, мне понадобится контент (текст и фото), который Вы хотите использовать для её наполнения.</h4>
+						<p id="output107">Цена: от 30.000Р</p>
+						<p id="output108">Сроки: 1 неделя</p>
+						<p id="output109">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item7.webp">
+					<div class="popup__text">
+						<h3 id="output110">Вывески и рекламные макеты</h3>
+						<h4 id="output111">Для того чтобы изготовить вывеску, баннер или, например, наклейки на транспорт, необходим макет в векторном формате. Как и в случае с другими видами макетов, в стоимость входит подготовка файлов к печати.</h4>
+						<p id="output112">Цена: от 5.000Р</p>
+						<p id="output113">Сроки: от 1 недели</p>
+						<p id="output114">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item8.webp">
+					<div class="popup__text">
+						<h3 id="output115">Упаковка</h3>
+						<h4 id="output116">Разработка упаковок для косметики, пищевых продуктов, бытовой химии и других направлений бизнеса, а также коробок и фирменных пакетов. Чаще всего заказывают разработку именно этикеток (наклеек на уже готовые упаковки), но также есть возможность разработать абсолютно индивидуальный 3D-макет самой ёмкости.</h4>
+						<p id="output117">Цена: от 20.000Р</p>
+						<p id="output118">Сроки: от 1 недели</p>
+						<p id="output119">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item9.webp">
+					<div class="popup__text">
+						<h3 id="output120">Иллюстрации</h3>
+						<h4 id="output121">Разработка фирменных иллюстраций для рекламных креативов, полиграфии, учебных пособий, мерча, упаковок. Стоимость каждой иллюстрации зависит от стилистики и количества деталей. При заказе большого количества иллюстраций (например для учебного пособия или книги) стоимость также будет ниже.</h4>
+						<p id="output122">Цена: от 1.000Р</p>
+						<p id="output123">Сроки: от 2-3 дней</p>
+						<p id="output124">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item10.webp">
+					<div class="popup__text">
+						<h3 id="output125">Соц.сети</h3>
+						<h4 id="output126">Полное оформление Instagram, Facebook, Telegram, VK, YouTube и других соц. сетей по запросу. Также за дополнительную стоимость возможен запуск таргетированной рекламы (работаю в паре с таргетологом) и оформление рекламных материалов.</h4>
+						<p id="output127">Цена: от 25.000Р</p>
+						<p id="output128">Сроки: от 1 недели</p>
+						<p id="output129">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandpopup-item11.webp">
+					<div class="popup__text">
+						<h3 id="output130">Мерч</h3>
+						<h4 id="output131">Разработка мерча для студий, индивидуальных предпринимателей, блогеров, инфлюенсеров, компаний. Стоимость разработки зависит от стилистики и количества носителей, а также сложности дизайна, иллюстраций, паттернов.</h4>
+						<p id="output132">Цена: от 10.000Р</p>
+						<p id="output133">Сроки: от 1 недели</p>
+						<p id="output134">Правки: бесплатно</p>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <!-- Попап2 -->
+
+
+	<div id="testPopup" class="popup">
+		<div id="testBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="testCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper">
+				<h1 id="output135">Веб-дизайн</h1>
+				<h2 id="output136">Разработка сайтов с 0 или на конструкторе. Конструктор дешевле, но разработка с 0 необходима, если нужно реализовать нестандартные функции (например, калькулятор расчета стоимости или функцию "намекнуть о подарке" в интернет-магазине). Количество страниц зависит от разделов (например, этот сайт многостраничный, так как на нем их 4: портфолио, магазин, NFT, курс).</h2>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item1.webp">
+					<div class="popup__text">
+						<h3 id="output137">Одностраничный сайт на конструкторе</h3>
+						<h4 id="output138">Вам подойдет одностраничный сайт на конструкторе, если Вы продвигаете один конкретный продукт или услугу. Лендинги (одностраничные сайты) предназначены для того, чтобы сфокусировать внимание пользователя на чем-то одном и получить от него обратную связь (контакты, заявку, обращение и т.д.).</h4>
+						<p id="output139">Цена: от 50.000Р</p>
+						<p id="output140">Сроки: от 2 недель</p>
+						<p id="output141">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item2.webp">
+					<div class="popup__text">
+						<h3 id="output142">Многостраничный сайт на конструкторе</h3>
+						<h4 id="output143">Многостраничный сайт на конструкторе включает несколько разделов-страниц. Такой сайт можно сделать на конструкторе, если для продвижения Вашего продукта или услуги не нужны нестандартные фичи (например, калькулятор расчета стоимости).</h4>
+						<p id="output144">Цена: от 100.000Р</p>
+						<p id="output145">Сроки: от 1 месяца</p>
+						<p id="output146">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item3.webp">
+					<div class="popup__text">
+						<h3 id="output147">Интернет-магазин на конструкторе</h3>
+						<h4 id="output148">Подходит небольшим авторским брендам, у которых количество позиций на продажу не превышает 500 единиц. Важно учитывать, что дизайн интернет-магазина на конструкторе не получится сделать индивидуальным, всё будет в рамках стандартных критериев.</h4>
+						<p id="output149">Цена: от 150.000Р</p>
+						<p id="output150">Сроки: от 2 месяцев</p>
+						<p id="output151">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item4.webp">
+					<div class="popup__text">
+						<h3 id="output152">Одностраничный сайт. Разработка с 0</h3>
+						<h4 id="output153">Если Вы продвигаете один конкретный продукт или услугу, при этом хотите нестандартный дизайн, возможность добавлять любые фичи, безопасно хранить данные пользователей и свои, то Вам подойдет разработка лендинга с 0.</h4>
+						<p id="output154">Цена: от 100.000Р</p>
+						<p id="output155">Сроки: от 4 месяцев</p>
+						<p id="output156">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item5.webp">
+					<div class="popup__text">
+						<h3 id="output157">Многостраничный сайт. Разработка с 0</h3>
+						<h4 id="output158">Подойдет средним и крупным компаниям, которые заинтересованы в продвижении своего бизнеса в интернете. Многостраничные сайты, разработанные с 0, отлично индексируются поисковиками, имеют высокую скорость загрузки и неограниченную функциональность.</h4>
+						<p id="output159">Цена: от 300.000Р</p>
+						<p id="output160">Сроки: от 6 месяцев</p>
+						<p id="output161">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/testpopup-item6.webp">
+					<div class="popup__text">
+						<h3 id="output162">Интернет-магазин. Разработка с 0</h3>
+						<h4 id="output163">При разработке интернет-магазина с 0, Вы получаете огромные возможности для аналитики - можно создать любые новые или подключить существующие аналитические модули. Кроме того, только Вы являетесь полноценным владельцем проекта, функциональность которого подбирается под потребности Вашего бизнеса, а не под возможности конструктора.</h4>
+						<p id="output164">Цена: 500.000Р</p>
+						<p id="output165">Сроки: от 6 месяцев</p>
+						<p id="output166">Правки: бесплатно</p>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+<!-- Попап_brandbook -->
+
+
+	<div id="brandbookPopup" class="popup">
+		<div id="brandbookBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="brandbookCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output167">Брендбук</h1>
+				<h2 id="output168">Брендбук — это пдф-файл, в котором прописано, как следует и не следует использовать элементы фирменного стиля бренда. Если компания достаточно крупная, и над айдентикой работают разные отделы и специалисты, брендбук подскажет, какой применить шрифт или какие выбрать цвета, чтобы сохранить визуальную целостность бренда. </h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandbook1.webp">
+					<div class="popup__text-2">
+						<h3 id="output169">Типовой брендбук для Deine-Traum-Immo</h3>
+						<h4 id="output170">Файл содержит информацию о логотипе компании: основные/дополнительные версии, использование на фонах, расположение, недопустимое использование; а также данные о шрифтах и фирменных цветах. Все элементы айдентики показаны на носителях.</h4>
+						<p id="output171">Цена: 100.000Р</p>
+						<p id="output172">Сроки: 1 неделя</p>
+						<p id="output173">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/brandbook2.webp">
+					<div class="popup__text-2">
+						<h3 id="output174">Брендбук с файлами для OLY CHARM</h3>
+						<h4 id="output175">Дополнительно включает в себя файлы макетов фирменного стиля (визитки, бланки, брошюры и т.д.) в формате pdf. К фотографиям макетов прикреплены ссылки на файлы, чтобы при необходимости любой макет можно было скачать напрямую из брендбука и использовать.</h4>
+						<p id="output176">Цена: 140.000Р</p>
+						<p id="output177">Сроки: 1,5-2 недели</p>
+						<p id="output178">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output179">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_web -->
+
+
+	<div id="webPopup" class="popup">
+		<div id="webBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="webCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output180">Сайты</h1>
+				<h2 id="output181">Разработка сайтов с 0 или на конструкторе. Конструктор дешевле, но разработка с 0 необходима, если нужно реализовать нестандартные функции (например, калькулятор расчета стоимости или функцию "намекнуть о подарке" в интернет-магазине). Количество страниц зависит от разделов (например, этот сайт многостраничный, так как на нем их 4: портфолио, магазин, NFT, курс).</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/web1.webp">
+					<div class="popup__text-2">
+						<h3 id="output182">Многостраничный сайт и интернет-магазин для Handkunst Nails</h3>
+						<h4 id="output183">Сайт разрабатывался с 0 для девушки из Германии (полностью на немецком языке). Включает в себя страницу-портфолио бьюти-студии, интернет-магазин авторского бренда косметики и страницу с обучающими курсами.</h4>
+						<p id="output184">Цена: 550.000Р</p>
+						<p id="output185">Сроки: 6-9 месяцев</p>
+						<p id="output186">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/web2.webp">
+					<div class="popup__text-2">
+						<h3 id="output187">Интернет-магазин на конструкторе для CleanSpace</h3>
+						<h4 id="output188">Интернет-магазин климатической техники, выполненный на конструкторе eqwid. Некоторые фичи добавляли, используя документацию для разработчиков и встроенный на платформе редактор кода.</h4>
+						<p id="output189">Цена: 180.000Р</p>
+						<p id="output190">Сроки: 3 месяца</p>
+						<p id="output191">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/web3.webp">
+					<div class="popup__text-2">
+						<h3 id="output192">Сайт-визитка разработчика</h3>
+						<h4 id="output193">Одностраничный сайт-портфолио для full stack веб-разработчика. Создавался для запуска рекламы и поиска клиентов на фрилансе. Разрабатывался полностью с 0. Специально для сайта были также разработаны логотип, иллюстрации и другие элементы фирменного стиля.</h4>
+						<p id="output194">Цена: 150.000Р</p>
+						<p id="output195">Сроки: 1 месяц</p>
+						<p id="output196">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output197">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_branding -->
+
+
+	<div id="brandingPopup" class="popup">
+		<div id="brandingBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="brandingCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output198">Брендинг</h1>
+				<h2 id="output199">"Брендинг" или "фирменный стиль" включает в себя разработку логотипа, полиграфии (визиток, бланков, сертификатов и т.д.) и рекламной продукции (баннеров, листовок, вывесок и т.д.). Набор макетов зависит от потребностей компании и составляется в индивидуальном порядке.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/branding1.webp">
+					<div class="popup__text-2">
+						<h3 id="output200">Фирменный стиль для Catering Moscow</h3>
+						<h4 id="output201">Компания, специализирующаяся на приготовлении и доставке пищи, обслуживании банкетов и праздников. Помимо логотипа, а также стандартного набора полиграфии и рекламной продукции, большое внимание было уделено разработке многостраничного меню в разных форматах. Также для компании был разработан сайт.</h4>
+						<p id="output202">Цена: 120.000Р</p>
+						<p id="output203">Сроки: 2 недели</p>
+						<p id="output204">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/branding2.webp">
+					<div class="popup__text-2">
+						<h3 id="output205">Фирменный стиль для TB BEAUTY BAR</h3>
+						<h4 id="output206">Студия красоты из Санкт-Петербурга. В рамках проекта был разработан логотип (3 различных варианта), визитки, карточки лояльности, прайс-лист (в 4 разных форматах), вывески (для входной двери с режимом работы, уличная, несколько внутренних), подарочные сертификаты и наклейки на кофе.</h4>
+						<p id="output207">Цена: 80.000Р</p>
+						<p id="output208">Сроки: 1,5 недели</p>
+						<p id="output209">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/branding3.webp">
+					<div class="popup__text-2">
+						<h3 id="output210">Фирменный стиль для Lavka Ceramics</h3>
+						<h4 id="output211">Забавный проект для частной студии керамики ручной работы. Поскольку сами изделия студии отличаются яркими цветами и интересными текстурами, помимо стандартного набора макетов для проекта было создано несколько колоритных паттернов, отражающих настроение бренда.</h4>
+						<p id="output212">Цена: 110.000Р</p>
+						<p id="output213">Сроки: 2 недели</p>
+						<p id="output214">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output215">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_logodesign -->
+
+
+	<div id="logodesignPopup" class="popup">
+		<div id="logodesignBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="logodesignCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output216">Логотипы</h1>
+				<h2 id="output217">В стоимость разработки логотипа входит: 3 разных варианта логотипа на выбор, форматы: вектор, водяной знак + логотип на красивом фоне для соц.сетей (делаю в фотошопе). Все правки независимо от услуги — бесплатно. Итоговый вариант будет продемонстрирован на носителях.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/logodesign1.webp">
+					<div class="popup__text-2">
+						<h3 id="output218">Логотип для мини-отеля на Тверской</h3>
+						<h4 id="output219">В логотип для отеля "Тверская 12" по просьбе заказчика необходимо было добавить много информативных элементов (адрес, 3 звезды и т.д.), поэтому основная сложность была в том, чтобы не перегрузить макет. Данный вариант был утвержден с первого раза и абсолютно без правок.</h4>
+						<p id="output220">Цена: 50.000Р</p>
+						<p id="output221">Сроки: 1 неделя</p>
+						<p id="output222">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/logodesign2.webp">
+					<div class="popup__text-2">
+						<h3 id="output223">3 варианта логотипа для Solonets</h3>
+						<h4 id="output224">Перед началом работы, девушка написала примерные пожелания. Нужен был текстовый логотип с минималистичным дизайном; нежный и в то же время необычный и запоминающийся. Из всех предложенных вариантов был выбран второй, т.к. он совпал с первоначальным запросом.</h4>
+						<p id="output225">Цена: 30.000Р</p>
+						<p id="output226">Сроки: 1 неделя</p>
+						<p id="output227">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/logodesign3.webp">
+					<div class="popup__text-2">
+						<h3 id="output228">Логотип для Sever Tobacco</h3>
+						<h4 id="output229">Иллюстрированный логотип, на основе которого в дальнейшем была создана упаковка табака для кальяна. Основными пожеланиями были: яркие ассоциации с названием, северным сиянием в цветах, при этом строгий и стильный вид — табак создавался для настоящих ценителей насыщенного вкуса и крепости.</h4>
+						<p id="output230">Цена: 60.000Р</p>
+						<p id="output231">Сроки: 1 неделя</p>
+						<p id="output232">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output233">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_presentation -->
+
+
+	<div id="presentationPopup" class="popup">
+		<div id="presentationBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="presentationCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output234">Презентации</h1>
+				<h2 id="output235">Презентации чаще всего заказывают, когда нужно эффектно представить продукт или решения потенциальным клиентам. Чтобы создать презентацию для Вашей компании, мне понадобится контент (текст и фото), который Вы хотите использовать для её наполнения.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/presentation1.webp">
+					<div class="popup__text-2">
+						<h3 id="output236">Презентация для курса по астрологии семейных отношений</h3>
+						<h4 id="output237">Для этого проекта был создан целый ряд презентаций в едином стиле (в полном курсе 3 блока, в каждом из которых по 8-9 уроков). На первом этапе мы определили основные цвета, утвердили графические элементы и шрифты. Затем по заданным параметрам оформляли презентации к каждому уроку курса.</h4>
+						<p id="output238">Цена: 30.000Р</p>
+						<p id="output239">Сроки: 1 неделя</p>
+						<p id="output240">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/presentation2.webp">
+					<div class="popup__text-2">
+						<h3 id="output241">Презентация для М2</h3>
+						<h4 id="output242">Презентация для строительно-отделочной компании, включающая информацию о 3-х возможных вариантах отделки под ключ + подробное описание материалов, этапов работ, дополнительных опций. Основным пожеланием клиента было большое количество инфографики и фотографий.</h4>
+						<p id="output243">Цена: 50.000Р</p>
+						<p id="output244">Сроки: 1 неделя</p>
+						<p id="output245">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/presentation3.webp">
+					<div class="popup__text-2">
+						<h3 id="output246">Презентация для Rapid Games</h3>
+						<h4 id="output247">Презентация нового концепта компьютерной игры для студии из Москвы. Проект строится на основе реальных событий Древнего Египта, при этом важно было передать в дизайне современный подход к графике и механикам. Именно поэтому для презентации были выбраны соответствующие цвета и шрифты.</h4>
+						<p id="output248">Цена: 65.000Р</p>
+						<p id="output249">Сроки: 1 неделя</p>
+						<p id="output250">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output251">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_polygraphy -->
+
+
+	<div id="polygraphyPopup" class="popup">
+		<div id="polygraphyBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="polygraphyCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output252">Полиграфия</h1>
+				<h2 id="output253">Если Вам не нужно полное оформление бренда, а только один или несколько макетов, их можно заказать по отдельности, в уже существующем фирменном стиле компании или разработать с 0. Цены на полиграфию начинаются от 4000р (например, за визитные карточки) и зависят от сложности дизайна и объема работы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/polygraphy1.webp">
+					<div class="popup__text-2">
+						<h3 id="output254">Полиграфия для Epilog Laser</h3>
+						<h4 id="output255">"Календарь наших встреч" и абонементы для студии депиляции из Москвы. Помимо этих макетов, для бренда были разработаны подарочные сертификаты, карточки лояльности и множество других красивых работ, которые Вы можете увидеть в Инстаграм @malinitea.</h4>
+						<p id="output256">Цена: 11.000Р</p>
+						<p id="output257">Сроки: 3-4 дня</p>
+						<p id="output258">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/polygraphy2.webp">
+					<div class="popup__text-2">
+						<h3 id="output259">Макеты для Sever Tobacco</h3>
+						<h4 id="output260">Меню, информационная табличка и буклет для производителя табака. Все макеты были выполнены в едином стиле и полностью соответствуют образу бренда. Также табличка выполнена как шаблон и может использоваться для анонсов других новых вкусов.</h4>
+						<p id="output261">Цена: 27.000Р</p>
+						<p id="output262">Сроки: 1 неделя</p>
+						<p id="output263">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output264">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_signboards -->
+
+
+	<div id="signboardsPopup" class="popup">
+		<div id="signboardsBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="signboardsCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output265">Вывески</h1>
+				<h2 id="output266">Для того чтобы изготовить вывеску в типографии или на производстве, необходим макет в векторном формате. Разработку такого макета Вы можете заказать у фрилансера. Как и в случае с другими видами макетов, в стоимость входит подготовка файлов к печати.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/signboards1.webp">
+					<div class="popup__text-2">
+						<h3 id="output267">Вывески для TB BEAUTY</h3>
+						<h4 id="output268">Макет наружной вывески и наклейка на входную дверь с информацией о графике работы и контактами для бьюти-студии из Санкт-Петербурга. Обе вывески были предоставлены в векторных форматах (eps и ai) и затем изготавливались в местной типографии.</h4>
+						<p id="output269">Цена: 15.000Р</p>
+						<p id="output270">Сроки: 2-3 дня</p>
+						<p id="output271">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/signboards2.webp">
+					<div class="popup__text-2">
+						<h3 id="output272">Вывеска для магазина морепродуктов</h3>
+						<h4 id="output273">Иллюстрированная наружная вывеска для магазина морепродуктов в Геленджике. Разрабатывалась на основе уже существующего фирменного стиля компании. Также на основе иллюстрации в дальнейшем был разработан паттерн и фирменные наклейки.</h4>
+						<p id="output274">Цена: 20.000Р</p>
+						<p id="output275">Сроки: 1 неделя</p>
+						<p id="output276">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output277">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_social -->
+
+
+	<div id="socialPopup" class="popup">
+		<div id="socialBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="socialCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output278">Соц.Сети</h1>
+				<h2 id="output279">Полное оформление Instagram, Facebook, Telegram, VK, YouTube и других соц. сетей по запросу. Также за дополнительную стоимость возможен запуск таргетированной рекламы (работаю в паре с таргетологом) и оформление рекламных материалов.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/social1.webp">
+					<div class="popup__text-2">
+						<h3 id="output280">Оформление Instagram под ключ для Catering Moscow</h3>
+						<h4 id="output281">Оформление аватарки, шаблонов и обложек для сторис, разработка ленты на 12 постов (их хватит на 1-1,5 месяца, если выкладывать посты по 2-3 в неделю), подбор и обработка фотографий в единой стилистике с учетом фирменного стиля бренда.</h4>
+						<p id="output282">Цена: 40.000Р</p>
+						<p id="output283">Сроки: 1 неделя</p>
+						<p id="output284">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/social2.webp">
+					<div class="popup__text-2">
+						<h3 id="output285">Сторис для Epilog Laser</h3>
+						<h4 id="output286">Прайс-лист студии в формате сторис. Макеты были выполнены с учетом фирменного стиля бренда и в формате шаблона (то есть текст или цены можно самостоятельно менять в случае необходимости).</h4>
+						<p id="output287">Цена: 8.000Р</p>
+						<p id="output288">Сроки: 2-3 дня</p>
+						<p id="output289">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/social3.webp">
+					<div class="popup__text-2">
+						<h3 id="output290">Обложки для VK и FB</h3>
+						<h4 id="output291">На примере представлены обложки для разных сфер бизнеса: студия красоты, школа, коррекционный центр, дом престарелых, бизнес-эксперты, недвижимость, косметика. Всё это компании, которые представлены в соц. сетях и нуждаются в оформлении аккаунтов, групп и сообществ с учетом фирменной стилистики.</h4>
+						<p id="output292">Цена: 5.000Р</p>
+						<p id="output293">Сроки: 2-3 дня</p>
+						<p id="output294">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output295">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_illustrations -->
+
+
+	<div id="illustrationsPopup" class="popup">
+		<div id="illustrationsBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="illustrationsCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output296">Иллюстрации</h1>
+				<h2 id="output297">Разработка фирменных иллюстраций для рекламных креативов, полиграфии, учебных пособий, мерча, упаковок. Стоимость каждой иллюстрации зависит от стилистики и количества деталей. При заказе большого количества иллюстраций (например для учебного пособия или книги) стоимость также будет ниже.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/illustrations1.webp">
+					<div class="popup__text-2">
+						<h3 id="output298">Иллюстрации для SHEYKO BEAUTY</h3>
+						<h4 id="output299">Иллюстрации для учебного пособия по маникюру. Все иллюстрации выполнены в фирменном стиле бренда, а флакончики и кисти срисованы с реальных продуктов бренда. Всего было создано 63 иллюстрации.</h4>
+						<p id="output300">Цена: 85.000Р</p>
+						<p id="output301">Сроки: 2 недели</p>
+						<p id="output302">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/illustrations2.webp">
+					<div class="popup__text-2">
+						<h3 id="output303">Иллюстрации для VIRO PRO</h3>
+						<h4 id="output304">Набор иллюстраций для фирменных слайдеров + креативные иллюстрации для Инстаграм-профиля бренда. Всего для VIRO было создано 7 наборов иллюстраций для сетов и более 50 иллюстраций для Инстаграм.</h4>
+						<p id="output305">Цена: 40.000Р</p>
+						<p id="output306">Сроки: 2 недели</p>
+						<p id="output307">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output308">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_allowance -->
+
+
+	<div id="allowancePopup" class="popup">
+		<div id="allowanceBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="allowanceCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output309">Пособия</h1>
+				<h2 id="output310">Многостраничные обучающие пособия, которые можно распечатать в типографии и продавать, либо прилагать к живым курсам или давать в подарок за покупку. Стоимость разработки зависит от количества страниц и сложности дизайна. Страницы считаю по текстовому документу, который Вы присылаете.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/allowance1.webp">
+					<div class="popup__text-2">
+						<h3 id="output311">Обучающее пособие для Alipova Nail</h3>
+						<h4 id="output312-1">Книга с информацией для курса "Комби-маникюр + идеальное покрытие под кутикулу" от блогера Виктории Алиповой. Пособие состоит из 72 страниц + 10 страниц для заметок учеников. Для работы были предоставлены текст и фотографии.</h4>
+						<p id="output312">Цена: 130.000Р</p>
+						<p id="output313">Сроки: 2 недели</p>
+						<p id="output314">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/allowance2.webp">
+					<div class="popup__text-2">
+						<h3 id="output315">Пособия для JuniqueBrows</h3>
+						<h4 id="output316">Серия из 3х обучающих пособий для девушки из Германии. Каждое пособие на 70-80 страниц + страницы для заметок. Выполнены полностью на немецком языке и в едином стиле. Для работы были предоставлены текст и часть фотографий. Остальные подбирались дополнительно.</h4>
+						<p id="output317">Цена: 300.000Р</p>
+						<p id="output318">Сроки: 3 месяца</p>
+						<p id="output319">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output320">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_packaging -->
+
+
+	<div id="packagingPopup" class="popup">
+		<div id="packagingBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="packagingCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output321">Упаковка</h1>
+				<h2 id="output322">Разработка упаковок для косметики, пищевых продуктов, бытовой химии и других направлений бизнеса, а также коробок и фирменных пакетов. Чаще всего заказывают разработку именно этикеток (наклеек на уже готовые упаковки), но также есть возможность разработать абсолютно индивидуальный 3D-макет самой ёмкости и затем изготовить их на производстве по данному макету.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/packaging1.webp">
+					<div class="popup__text-2">
+						<h3 id="output323">Упаковка для Sever Tobacco</h3>
+						<h4 id="output324">Разработка упаковки табака для кальяна c иллюстрированным логотипом, составом, крепостью, штрих-кодом и датой изготовления. Основными пожеланиями были: яркие ассоциации с названием, северным сиянием в цветах, при этом строгий и стильный вид — табак создавался для настоящих ценителей насыщенного вкуса и крепости.</h4>
+						<p id="output325">Цена: 20.000Р</p>
+						<p id="output326">Сроки: 1 неделя</p>
+						<p id="output327">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/packaging2.webp">
+					<div class="popup__text-2">
+						<h3 id="output328">Упаковки для VIRO PRO</h3>
+						<h4 id="output329">Разработка упаковок для авторского бренда средств и аксессуаров для маникюра от блогера Виктории Алиповой. В процессе сотрудничества были разработаны упаковки для гель-лаков, баз, топов, полигелей, увлажняющих спреев, слайдеров, а также открытки и подарочная полиграфия. Весь ассортимент можно увидеть на сайте бренда viro.pro.</h4>
+						<p id="output330">Цена: 250.000Р</p>
+						<p id="output331">Сроки: 3 месяца</p>
+						<p id="output332">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/packaging3.webp">
+					<div class="popup__text-2">
+						<h3 id="output333">Упаковки для MYLO</h3>
+						<h4 id="output334">Авторский бренд натуральной косметики ручной работы. Основным запросом был яркий и универсальный дизайн. В процессе сотрудничества были разработаны упаковки для шампуней и бальзамов, мыла, увлажняющих бальзамов и скрабов для губ, баттеров, кремов для лица и тела.</h4>
+						<p id="output335">Цена: 80.000Р</p>
+						<p id="output336">Сроки: 3 недели</p>
+						<p id="output337">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output338">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_catalog-->
+
+
+	<div id="catalogPopup" class="popup">
+		<div id="catalogBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="catalogCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output339">Каталоги</h1>
+				<h2 id="output340">Многостраничные журналы и каталоги с информацией о продуктах или услугах компании. Для того чтобы начать работу над таким макетом, необходимы текст и фотографии. Стоимость разработки зависит от количества страниц и сложности дизайна.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/catalog1.webp">
+					<div class="popup__text-2">
+						<h3 id="output341">Каталог для SHEYKO UNIFORM</h3>
+						<h4 id="output342">Многостраничный каталог, который включает в себя информацию об истории компании, продуктах, возможных вариантах материалов и тканей, а также стоимости и сроках пошива на заказ.</h4>
+						<p id="output343">Цена: 80.000Р</p>
+						<p id="output344">Сроки: 2 недели</p>
+						<p id="output345">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/catalog2.webp">
+					<div class="popup__text-2">
+						<h3 id="output346">Каталог для М2</h3>
+						<h4 id="output347">Каталог для строительно-отделочной компании, включающий в себя информацию о компании, основных видах услуг, стоимости, сроках работ + возможных вариантах отделки. Большая часть каталога посвящена отделочным работам и меблировке квартир.</h4>
+						<p id="output348">Цена: 70.000Р</p>
+						<p id="output349">Сроки: 2 недели</p>
+						<p id="output350">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output351">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_ad-->
+
+
+	<div id="adPopup" class="popup">
+		<div id="adBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="adCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output352">Реклама</h1>
+				<h2 id="output353">Рекламные макеты для таргета в соц.сетях или поисковиках, рекламная полиграфия (листовки, баннеры, плакаты и т.д). Больше примеров работ по этому направлению вы всегда можете увидеть в Инстаграм @malinitea.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/ad1.webp">
+					<div class="popup__text-2">
+						<h3 id="output354">Креативы для Beauty Sleep</h3>
+						<h4 id="output355">Рекламные креативы для бренда-производителя постельных принадлежностей, одежды, аксессуаров и ароматов для сна премиум-класса. Основной задачей было четкое соответствие сформированному фирменному стилю компании. При этом важно было креативно проиллюстрировать продукт в серии макетов.</h4>
+						<p id="output356">Цена: 10.000Р</p>
+						<p id="output357">Сроки: 1 неделя</p>
+						<p id="output358">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output359">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_merch-->
+
+
+	<div id="merchPopup" class="popup">
+		<div id="merchBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="merchCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output360">Мерч</h1>
+				<h2 id="output361">Разработка мерча для студий, индивидуальных предпринимателей, блогеров, инфлюенсеров, компаний. Стоимость разработки зависит от стилистики и количества носителей, а также сложности дизайна, иллюстраций, паттернов.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/merch1.webp">
+					<div class="popup__text-2">
+						<h3 id="output362">Фирменные футболки для Alipova Nail</h3>
+						<h4 id="output363">Мерч для авторских курсов по маникюру блогера Виктории Алиповой. Футболки предназначались для преподавателей курса, а также как подарок всем, кто посетил живые занятия.</h4>
+						<p id="output364">Цена: 10.000Р</p>
+						<p id="output365">Сроки: 1 неделя</p>
+						<p id="output366">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/merch2.webp">
+					<div class="popup__text-2">
+						<h3 id="output367">Наклейки для TB Beauty</h3>
+						<h4 id="output368">Студия красоты из Санкт-Петербурга. Для создания наклеек мне был предоставлены забавные фразы и пожелания клиентам салона. При разработке дизайна опирались на дизайн-проект интерьера студии.</h4>
+						<p id="output369">Цена: 20.000Р</p>
+						<p id="output370">Сроки: 1 неделя</p>
+						<p id="output371">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output372">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_cosmetics-->
+
+
+	<div id="cosmeticsPopup" class="popup">
+		<div id="cosmeticsBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="cosmeticsCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output373">Косметика</h1>
+				<h2 id="output374">Разработка фирменного стиля, сайтов, упаковок, логотипов и подарочной полиграфии для косметических брендов. Помимо всего вышеперечисленного, есть возможность разработать абсолютно индивидуальный 3D-макет ёмкостей для продуктов и затем изготовить их на производстве по данному макету. Вместо фотосессий можно сделать 3D рендеры.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/cosmetics1.webp">
+					<div class="popup__text-2">
+						<h3 id="output375">Фирменный стиль и упаковки для VIRO PRO</h3>
+						<h4 id="output376">Разработка упаковок для авторского бренда средств и аксессуаров для маникюра от блогера Виктории Алиповой. В процессе сотрудничества были разработаны упаковки для гель-лаков, баз, топов, полигелей, увлажняющих спреев, слайдеров, а также открытки и подарочная полиграфия. Весь ассортимент можно увидеть на сайте бренда viro.pro.</h4>
+						<p id="output377">Цена: 250.000Р</p>
+						<p id="output378">Сроки: 3 месяца</p>
+						<p id="output379">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/cosmetics2.webp">
+					<div class="popup__text-2">
+						<h3 id="output380">Фирменный стиль и упаковки для MYLO</h3>
+						<h4 id="output381">Авторский бренд натуральной косметики ручной работы. Основным запросом был яркий и универсальный дизайн. В процессе сотрудничества были разработаны упаковки для шампуней и бальзамов, мыла, увлажняющих бальзамов и скрабов для губ, баттеров, кремов для лица и тела.</h4>
+						<p id="output382">Цена: 80.000Р</p>
+						<p id="output383">Сроки: 3 недели</p>
+						<p id="output384">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output385">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_ceramics-->
+
+
+	<div id="ceramicsPopup" class="popup">
+		<div id="ceramicsBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="ceramicsCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output386">Керамика</h1>
+				<h2 id="output387">Разработка фирменного стиля, сайтов, упаковок, логотипов и подарочной полиграфии для студий керамики и изделий ручной работы. Помимо всего вышеперечисленного, есть возможность сделать 3D рендеры изделий или упаковок и использовать их для создания контента.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/ceramics1.webp">
+					<div class="popup__text-2">
+						<h3 id="output388">Фирменный стиль и упаковки для Lavka Ceramics</h3>
+						<h4 id="output389">Забавный проект для частной студии керамики ручной работы. Поскольку сами изделия студии отличаются яркими цветами и интересными текстурами, помимо стандартного набора макетов для проекта было создано несколько колоритных паттернов, отражающих настроение бренда.</h4>
+						<p id="output390">Цена: 110.000Р</p>
+						<p id="output391">Сроки: 2 недели</p>
+						<p id="output392">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output393">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_realty-->
+
+
+	<div id="realtyPopup" class="popup">
+		<div id="realtyBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="realtyCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output394">Недвижимость</h1>
+				<h2 id="output395">Разработка фирменного стиля, сайтов, многостраничных журналов, презентаций, буклетов, логотипов и полиграфии для сфер, связанных со строительством, ремонтом и продажей недвижимости.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/realty1.webp">
+					<div class="popup__text-2">
+						<h3 id="output396">Презентация для М2</h3>
+						<h4 id="output397">Презентация для строительно-отделочной компании, включающая информацию о 3-х возможных вариантах отделки под ключ + подробное описание материалов, этапов работ, дополнительных опций. Основным пожеланием клиента было большое количество инфографики и фотографий.</h4>
+						<p id="output398">Цена: 50.000Р</p>
+						<p id="output399">Сроки: 1 неделя</p>
+						<p id="output400">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/realty2.webp">
+					<div class="popup__text-2">
+						<h3 id="output401">Каталог для М2</h3>
+						<h4 id="output402">Каталог для строительно-отделочной компании, включающий в себя информацию о компании, основных видах услуг, стоимости, сроках работ + возможных вариантах отделки. Большая часть каталога посвящена отделочным работам и меблировке квартир.</h4>
+						<p id="output403">Цена: 70.000Р</p>
+						<p id="output404">Сроки: 2 неделя</p>
+						<p id="output405">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output406">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_repair-->
+
+
+	<div id="repairPopup" class="popup">
+		<div id="repairBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="repairCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output407">Техника</h1>
+				<h2 id="output408">Разработка фирменного стиля, сайтов, интернет-магазинов, многостраничных журналов, презентаций, буклетов, логотипов и полиграфии для сфер, связанных с продажей техники. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/repair1.webp">
+					<div class="popup__text-2">
+						<h3 id="output409">Логотип для Clean Space</h3>
+						<h4 id="output410">Иллюстрированный логотип, который был создан специально для интернет-магазина климатического оборудования компании Clean Space.</h4>
+						<p id="output411">Цена: 30.000Р</p>
+						<p id="output412">Сроки: 1 неделя</p>
+						<p id="output413">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/repair2.webp">
+					<div class="popup__text-2">
+						<h3 id="output414">Интернет-магазин на конструкторе для Clean Space</h3>
+						<h4 id="output415">Интернет-магазин климатической техники, выполненный на конструкторе eqwid. Некоторые фичи добавляли, используя документацию для разработчиков и встроенный на платформе редактор кода.</h4>
+						<p id="output416">Цена: 180.000Р</p>
+						<p id="output417">Сроки: 3 месяца</p>
+						<p id="output418">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output419">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_beauty-->
+
+
+	<div id="beautyPopup" class="popup">
+		<div id="beautyBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="beautyCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output420">Бьюти</h1>
+				<h2 id="output421">Разработка фирменного стиля, сайтов, интернет-магазинов, многостраничных журналов, презентаций, буклетов, логотипов и полиграфии для студий и частных мастеров. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/beauty1.webp">
+					<div class="popup__text-2">
+						<h3 id="output422">Многостраничный сайт и интернет-магазин для Handkunst Nails</h3>
+						<h4 id="output423">Сайт разрабатывался с 0 для девушки из Германии (полностью на немецком языке). Включает в себя страницу-портфолио бьюти-студии, интернет-магазин авторского бренда косметики и страницу с обучающими курсами.</h4>
+						<p id="output424">Цена: 550.000Р</p>
+						<p id="output425">Сроки: 6-9 месяцев</p>
+						<p id="output426">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/beauty2.webp">
+					<div class="popup__text-2">
+						<h3 id="output427">Фирменный стиль для TB BEAUTY BAR</h3>
+						<h4 id="output428">Студия красоты из Санкт-Петербурга. В рамках проекта был разработан логотип (3 различных варианта), визитки, карточки лояльности, прайс-лист (в 4 разных форматах), вывески (для входной двери с режимом работы, уличная, несколько внутренних), подарочные сертификаты и наклейки на кофе.</h4>
+						<p id="output429">Цена: 80.000Р</p>
+						<p id="output430">Сроки: 1,5 недели</p>
+						<p id="output431">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/beauty3.webp">
+					<div class="popup__text-2">
+						<h3 id="output432">Обучающее пособие для Alipova Nail</h3>
+						<h4 id="output433">Книга с информацией для курса "Комби-маникюр + идеальное покрытие под кутикулу" от блогера Виктории Алиповой. Пособие состоит из 72 страниц + 10 страниц для заметок учеников. Для работы были предоставлены текст и фотографии.</h4>
+						<p id="output434">Цена: 130.000Р</p>
+						<p id="output435">Сроки: 2 недели</p>
+						<p id="output436">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output437">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_education-->
+
+
+	<div id="educationPopup" class="popup">
+		<div id="educationBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="educationCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output438">Образование</h1>
+				<h2 id="output439">Разработка фирменного стиля, сайтов, многостраничных пособий, презентаций, буклетов, логотипов и полиграфии для государственный и частных образовательных учреждений. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/education1.webp">
+					<div class="popup__text-2">
+						<h3 id="output440">Логотип для школы "Интеллект"</h3>
+						<h4 id="output441">Разработка илюстрированного логотипа для школы углубленного изучения английского языка. На основе логотипа в дальнейшем был создан мерч, в том числе значки, футболки и кепки.</h4>
+						<p id="output442">Цена: 40.000Р</p>
+						<p id="output443">Сроки: 1 неделя</p>
+						<p id="output444">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/education2.webp">
+					<div class="popup__text-2">
+						<h3 id="output445">Одностраничный сайт на конструкторе</h3>
+						<h4 id="output446">Иллюстрированные рекламные креативы для креативной школы и студии дизайна DSGN CLUB. Всего за время сотрудничества для компании было создано более 50 растровых и векторных иллюстраций различного назначения.</h4>
+						<p id="output447">Цена: 10.000Р</p>
+						<p id="output448">Сроки: 1 неделя</p>
+						<p id="output449">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output450">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_food-->
+
+
+	<div id="foodPopup" class="popup">
+		<div id="foodBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="foodCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output451">Продукты</h1>
+				<h2 id="output452">Разработка фирменного стиля, упаковок, иллюстраций, сайтов, интернет-магазинов, многостраничных журналов, презентаций, буклетов, логотипов и полиграфии для различных напитков и продуктов питания. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/food1.webp">
+					<div class="popup__text-2">
+						<h3 id="output453">Упаковки для 100% ORGANIC</h3>
+						<h4 id="output454">Разработка логотипа и иллюстрированных упаковок для компании, занимающейся производством и продажей натуральных снэков. Всего за время сотрудничества для компании было создано более 10 растровых иллюстраций и столько же макетов этикеток.</h4>
+						<p id="output455">Цена: 50.000Р</p>
+						<p id="output456">Сроки: 1 месяц</p>
+						<p id="output457">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output458">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_clothes-->
+
+
+	<div id="clothesPopup" class="popup">
+		<div id="clothesBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="clothesCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output459">Одежда</h1>
+				<h2 id="output460">Разработка фирменного стиля, сайтов, интернет-магазинов, многостраничных журналов, презентаций, буклетов, логотипов, полиграфии, вывесок и макетов для витрин для магазинов одежды. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/clothes1.webp">
+					<div class="popup__text-2">
+						<h3 id="output461">Каталог для SHEYKO UNIFORM</h3>
+						<h4 id="output462">Многостраничный каталог, который включает в себя информацию об истории компании, продуктах, возможных вариантах материалов и тканей, а также стоимости и сроках пошива на заказ.</h4>
+						<p id="output463">Цена: 80.000Р</p>
+						<p id="output464">Сроки: 2 недели</p>
+						<p id="output465">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/clothes2.webp">
+					<div class="popup__text-2">
+						<h3 id="output466">Логотип и полиграфия для LUNA</h3>
+						<h4 id="output467">Бренд модной женской одежды с фирменными магазинами по всей России и странам СНГ. Для LUNA был выполнен ребрендинг логотипа и разработаны подарочные сертификаты на 1000, 2000, 3000 и 5000 рублей.</h4>
+						<p id="output468">Цена: от 30.000Р</p>
+						<p id="output469">Сроки: 1 неделя</p>
+						<p id="output470">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output471">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_tarot-->
+
+
+	<div id="tarotPopup" class="popup">
+		<div id="tarotBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="tarotCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output472">Астрология</h1>
+				<h2 id="output473">Разработка фирменного стиля, упаковок, иллюстраций, сайтов, интернет-магазинов, пособий, презентаций, буклетов, логотипов и полиграфии для сфер, связанных с таро и астрологией. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/tarot1.webp">
+					<div class="popup__text-2">
+						<h3 id="output474">Презентация для курса по астрологии семейных отношений</h3>
+						<h4 id="output475">Для этого проекта был создан целый ряд презентаций в едином стиле (в полном курсе 3 блока, в каждом из которых по 8-9 уроков). На первом этапе мы определили основные цвета, утвердили графические элементы и шрифты. Затем по заданным параметрам оформляли презентации к каждому уроку курса.</h4>
+						<p id="output476">Цена: 30.000Р</p>
+						<p id="output477">Сроки: 1 неделя</p>
+						<p id="output478">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output479">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_experts-->
+
+
+	<div id="expertsPopup" class="popup">
+		<div id="expertsBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="expertsCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output480">Эксперты</h1>
+				<h2 id="output481">Разработка фирменного стиля, иллюстраций, сайтов, интернет-магазинов, многостраничных журналов, пособий, презентаций, буклетов, логотипов и полиграфии для экспертов и блогеров. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/experts1.webp">
+					<div class="popup__text-2">
+						<h3 id="output482">Обложки для VK и FB</h3>
+						<h4 id="output483">На примере представлены обложки для разных сфер бизнеса: студия красоты, школа, коррекционный центр, дом престарелых, бизнес-эксперты, недвижимость, косметика. Всё это компании, которые представлены в соц. сетях и нуждаются в оформлении аккаунтов, групп и сообществ с учетом фирменной стилистики.</h4>
+						<p id="output484">Цена: 5.000Р</p>
+						<p id="output485">Сроки: 2-3 дня</p>
+						<p id="output486">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output487">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+<!-- Попап_tobacco-->
+
+
+	<div id="tobaccoPopup" class="popup">
+		<div id="tobaccoBg" class="bg"></div>
+		<div class="popup__body">
+		  <div class="popup__content"> 
+			<!-- тут писать весь контент -->
+			<a id="tobaccoCross" class="popup__close"><img src="https://storage.yandexcloud.net/maliniteasite/img/svg/close.svg" alt="закрыть"></a>
+	
+			<div class="popup__wrapper-2">
+				<h1 id="output488">Табак</h1>
+				<h2 id="output489">Разработка фирменного стиля, иллюстраций, сайтов, интернет-магазинов, многостраничных журналов, пособий, презентаций, буклетов, логотипов и полиграфии для производителей табачных изделий. Также возможно оформление соц.сетей и создание макетов для таргетированной и контекстной рекламы.</h2>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/tobacco1.webp">
+					<div class="popup__text-2">
+						<h3 id="output490">Упаковка для Sever Tobacco</h3>
+						<h4 id="output491">Разработка упаковки табака для кальяна c иллюстрированным логотипом, составом, крепостью, штрих-кодом и датой изготовления. Основными пожеланиями были: яркие ассоциации с названием, северным сиянием в цветах, при этом строгий и стильный вид — табак создавался для настоящих ценителей насыщенного вкуса и крепости.</h4>
+						<p id="output492">Цена: 20.000Р</p>
+						<p id="output493">Сроки: 1 неделя</p>
+						<p id="output494">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/tobacco2.webp">
+					<div class="popup__text-2">
+						<h3 id="output495">Макеты для Sever Tobacco</h3>
+						<h4 id="output496">Меню, информационная табличка и буклет для производителя табака. Все макеты были выполнены в едином стиле и полностью соответствуют образу бренда. Также табличка выполнена как шаблон и может использоваться для анонсов других новых вкусов.</h4>
+						<p id="output497">Цена: 60.000Р</p>
+						<p id="output498">Сроки: 1 неделя</p>
+						<p id="output499">Правки: бесплатно</p>
+					</div>
+				</div>
+				<div class="popup__items-2">
+					<img src="https://storage.yandexcloud.net/maliniteasite/img/popup/tobacco3.webp">
+					<div class="popup__text-2">
+						<h3 id="output500">Оформление Instagram под ключ для Sever Tobacco</h3>
+						<h4 id="output501">Оформление аватарки, шаблонов и обложек для сторис, разработка ленты на 12 постов (их хватит на 1-1,5 месяца, если выкладывать посты по 2-3 в неделю), подбор и обработка фотографий в единой стилистике с учетом фирменного стиля бренда.</h4>
+						<p id="output502">Цена: 40.000Р</p>
+						<p id="output503">Сроки: 1 неделя</p>
+						<p id="output504">Правки: бесплатно</p>
+					</div>
+				</div>
+				<h2 id="output505">Больше примеров в Инстаграм @malinitea</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
