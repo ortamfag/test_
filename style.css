@@ -1517,9 +1517,8 @@ a[x-apple-data-detectors] {
 
 	.header__grid {
 		width: 100%;
-		height: auto;
 		grid-template-columns: 37% 36.5% 26.5%;
-		grid-template-rows: auto;
+        grid-template-rows: 1fr;
 		grid-gap: 0px;
 		margin-bottom: 0px;
 	}
